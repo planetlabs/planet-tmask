@@ -1,0 +1,8 @@
+pip>9
+pandas
+retrying
+cython
+ipython
+requests
+matplotlib
+nose

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<re:EarthObservation xsi:schemaLocation="http://schemas.planet.com/products/productMetadataGeocorrected http://schemas.planet.com/products/re/4.0/RapidEye_ProductMetadata_GeocorrectedLevel.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:opt="http://earth.esa.int/opt" xmlns:gml="http://www.opengis.net/gml" xmlns:eop="http://earth.esa.int/eop" version="1.2.1" re_standard_product_version="4.0" xmlns:re="http://schemas.planet.com/products/productMetadataGeocorrected" xmlns:re_traditional="http://schemas.rapideye.de/products/productMetadataGeocorrected">
+    <gml:metaDataProperty>
+        <re:EarthObservationMetaData>
+            <eop:identifier>4939505_2012-12-11_RE1_3A_Analytic</eop:identifier>
+            <eop:acquisitionType>NOMINAL</eop:acquisitionType>
+            <eop:productType>L3A</eop:productType>
+            <eop:status>ARCHIVED</eop:status>
+            <eop:downlinkedTo>
+                <eop:DownlinkInformation>
+                    <eop:acquisitionStation codeSpace="urn:eop:RE:stationLocation">Svalbard</eop:acquisitionStation>
+                    <eop:acquisitionDate>2012-12-11T04:15:10.362220Z</eop:acquisitionDate>
+                </eop:DownlinkInformation>
+            </eop:downlinkedTo>
+
+            <eop:archivedIn>
+                <eop:ArchivingInformation>
+                    <eop:archivingCenter codeSpace="urn:eop:RE:stationLocation">AWS</eop:archivingCenter>
+                    <eop:archivingDate>2017-03-14T15:09:40.671485</eop:archivingDate>
+                    <eop:archivingIdentifier codeSpace="urn:eop:RE:dmsCatalogueId">1325234</eop:archivingIdentifier>
+                </eop:ArchivingInformation>
+            </eop:archivedIn>
+
+            <eop:processing>
+                <eop:ProcessingInformation>
+                    <eop:processorName>DPS</eop:processorName>
+                    <eop:processorVersion>4.1.4</eop:processorVersion>
+                    <eop:nativeProductFormat>GeoTIFF</eop:nativeProductFormat>
+                </eop:ProcessingInformation>
+            </eop:processing>
+
+            <re:license>
+                <re:licenseType>20160101 - Inc - Single User</re:licenseType>
+                <re:resourceLink xlink:title="PL EULA" xlink:href="https://assets.planet.com/docs/20160101_Inc_SingleUser.txt"/>
+            </re:license>
+            <re:versionIsd>4.0</re:versionIsd>
+            <re:orderId>1511772233</re:orderId>
+            <re:tileId>4939505</re:tileId>
+            <re:pixelFormat>16U</re:pixelFormat>
+        </re:EarthObservationMetaData>
+    </gml:metaDataProperty>
+    <gml:validTime>
+        <gml:TimePeriod>
+            <gml:beginPosition>2012-12-11T04:14:51.000</gml:beginPosition>
+            <gml:endPosition>2012-12-11T04:15:12.000</gml:endPosition>
+        </gml:TimePeriod>
+    </gml:validTime>
+
+    <gml:using>
+        <eop:EarthObservationEquipment>
+            <eop:platform>
+                <eop:Platform>
+                    <eop:shortName>RE00</eop:shortName>
+                    <eop:serialIdentifier>RapidEye-1</eop:serialIdentifier>
+                    <eop:orbitType>LEO</eop:orbitType>
+                </eop:Platform>
+            </eop:platform>
+            <eop:instrument>
+                <eop:Instrument>
+                    <eop:shortName>MSI</eop:shortName>
+                </eop:Instrument>
+            </eop:instrument>
+            <eop:sensor>
+                <re:Sensor>
+                    <eop:sensorType>OPTICAL</eop:sensorType>
+                    <eop:resolution uom="m">6.5</eop:resolution>
+                    <re:scanType>PUSHBROOM</re:scanType>
+                </re:Sensor>
+            </eop:sensor>
+            <eop:acquisitionParameters>
+                <re:Acquisition>
+                    <eop:orbitDirection>DESCENDING</eop:orbitDirection>
+                    <eop:incidenceAngle uom="deg">5.050000e+00</eop:incidenceAngle>
+                    <opt:illuminationAzimuthAngle uom="deg">1.675718e+02</opt:illuminationAzimuthAngle>
+                    <opt:illuminationElevationAngle uom="deg">6.539768e+01</opt:illuminationElevationAngle>
+                    <re:azimuthAngle uom="deg">9.762000e+01</re:azimuthAngle>
+                    <re:spaceCraftViewAngle uom="deg">-4.989244e+00</re:spaceCraftViewAngle>
+                    <re:acquisitionDateTime>2012-12-11T04:15:10.362220Z</re:acquisitionDateTime>
+                </re:Acquisition>
+            </eop:acquisitionParameters>
+        </eop:EarthObservationEquipment>
+    </gml:using>
+
+    <gml:target>
+        <re:Footprint>
+            <gml:multiExtentOf>
+                <gml:MultiSurface srsName="EPSG:4326">
+                    <gml:surfaceMembers>
+                        <gml:Polygon srsName="EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:coordinates>108.8388148,1.0894192 108.8389589,0.863399 109.0635086,0.8635213 109.0633787,1.0895729 108.8388148,1.0894192</gml:coordinates></gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+                    </gml:surfaceMembers>
+                </gml:MultiSurface>
+            </gml:multiExtentOf>
+            <gml:centerOf>
+                <gml:Point srsName="EPSG:4326">
+                <gml:pos>108.9511678 0.9764793</gml:pos>
+                </gml:Point>
+            </gml:centerOf>
+            <re:geographicLocation>
+                <re:topLeft>
+                    <re:latitude>1.089396888381147e+00</re:latitude>
+                    <re:longitude>1.088388373031181e+02</re:longitude>
+                </re:topLeft>
+                <re:topRight>
+                    <re:latitude>1.089550614464124e+00</re:latitude>
+                    <re:longitude>1.090633566546506e+02</re:longitude>
+                </re:topRight>
+                <re:bottomRight>
+                    <re:latitude>8.635437001960826e-01</re:latitude>
+                    <re:longitude>1.090634860444306e+02</re:longitude>
+                </re:bottomRight>
+                <re:bottomLeft>
+                    <re:latitude>8.634218669574105e-01</re:latitude>
+                    <re:longitude>1.088389816663613e+02</re:longitude>
+                </re:bottomLeft>
+            </re:geographicLocation>
+        </re:Footprint>
+    </gml:target>
+
+    <gml:resultOf>
+        <re:EarthObservationResult>
+            
+            <eop:product>
+                <re:ProductInformation>
+                    <eop:fileName>4939505_2012-12-11_RE1_3A_Analytic.tif</eop:fileName>
+                    <eop:size uom="KB">2.429987182617188e+02</eop:size>
+                    <re:productFormat>GeoTIFF</re:productFormat>
+                    <re:spatialReferenceSystem>
+                    <re:epsgCode>32649</re:epsgCode>
+                    <re:geodeticDatum>WGS_1984</re:geodeticDatum>
+                    <re:projection>WGS 84 / UTM zone 49N</re:projection>
+                    <re:projectionZone>49</re:projectionZone>
+                    </re:spatialReferenceSystem>
+                    <re:resamplingKernel>CC</re:resamplingKernel>
+                    <re:numRows>5000</re:numRows>
+                    <re:numColumns>5000</re:numColumns>
+                    <re:numBands>5</re:numBands>
+                    <re:rowGsd>5</re:rowGsd>
+                    <re:columnGsd>5</re:columnGsd>
+                    <re:radiometricCorrectionApplied>true</re:radiometricCorrectionApplied>
+                    <re:geoCorrectionLevel>Precision Geocorrection</re:geoCorrectionLevel>
+                    <re:elevationCorrectionApplied>FineDEM</re:elevationCorrectionApplied>
+                    <re:atmosphericCorrectionApplied>false</re:atmosphericCorrectionApplied>
+                </re:ProductInformation>
+            </eop:product>
+
+            
+            <eop:mask>
+                <eop:MaskInformation>
+                <eop:type>UNUSABLE DATA</eop:type>
+                <eop:format>RASTER</eop:format>
+                <eop:referenceSystemIdentifier codeSpace="EPSG">32621</eop:referenceSystemIdentifier>
+                <eop:fileName>4939505_2012-12-11_RE1_3A_udm.tif</eop:fileName>
+                </eop:MaskInformation>
+            </eop:mask>
+            
+
+            <opt:cloudCoverPercentage uom="percentage">6.98</opt:cloudCoverPercentage>
+            <opt:cloudCoverPercentageQuotationMode>AUTOMATIC</opt:cloudCoverPercentageQuotationMode>
+            <re:unusableDataPercentage uom="percentage">8.47</re:unusableDataPercentage>
+                
+<re:bandSpecificMetadata>
+    <re:bandNumber>1</re:bandNumber>
+    <re:percentMissingLines>0.000000000000000e+00</re:percentMissingLines>
+    <re:percentSuspectLines>0.000000000000000e+00</re:percentSuspectLines>
+    <re:binning>1x1</re:binning>
+    <re:shifting>1</re:shifting>
+    <re:masking>111</re:masking>
+    <re:radiometricScaleFactor>9.999999776482582e-03</re:radiometricScaleFactor>
+</re:bandSpecificMetadata>
+                
+                
+<re:bandSpecificMetadata>
+    <re:bandNumber>2</re:bandNumber>
+    <re:percentMissingLines>0.000000000000000e+00</re:percentMissingLines>
+    <re:percentSuspectLines>0.000000000000000e+00</re:percentSuspectLines>
+    <re:binning>1x1</re:binning>
+    <re:shifting>1</re:shifting>
+    <re:masking>111</re:masking>
+    <re:radiometricScaleFactor>9.999999776482582e-03</re:radiometricScaleFactor>
+</re:bandSpecificMetadata>
+                
+                
+<re:bandSpecificMetadata>
+    <re:bandNumber>3</re:bandNumber>
+    <re:percentMissingLines>0.000000000000000e+00</re:percentMissingLines>
+    <re:percentSuspectLines>0.000000000000000e+00</re:percentSuspectLines>
+    <re:binning>1x1</re:binning>
+    <re:shifting>1</re:shifting>
+    <re:masking>111</re:masking>
+    <re:radiometricScaleFactor>9.999999776482582e-03</re:radiometricScaleFactor>
+</re:bandSpecificMetadata>
+                
+                
+<re:bandSpecificMetadata>
+    <re:bandNumber>4</re:bandNumber>
+    <re:percentMissingLines>0.000000000000000e+00</re:percentMissingLines>
+    <re:percentSuspectLines>0.000000000000000e+00</re:percentSuspectLines>
+    <re:binning>1x1</re:binning>
+    <re:shifting>1</re:shifting>
+    <re:masking>111</re:masking>
+    <re:radiometricScaleFactor>9.999999776482582e-03</re:radiometricScaleFactor>
+</re:bandSpecificMetadata>
+                
+                
+<re:bandSpecificMetadata>
+    <re:bandNumber>5</re:bandNumber>
+    <re:percentMissingLines>0.000000000000000e+00</re:percentMissingLines>
+    <re:percentSuspectLines>0.000000000000000e+00</re:percentSuspectLines>
+    <re:binning>1x1</re:binning>
+    <re:shifting>1</re:shifting>
+    <re:masking>111</re:masking>
+    <re:radiometricScaleFactor>9.999999776482582e-03</re:radiometricScaleFactor>
+</re:bandSpecificMetadata>
+                
+
+        </re:EarthObservationResult>
+    </gml:resultOf>
+</re:EarthObservation>
