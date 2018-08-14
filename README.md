@@ -120,4 +120,6 @@ the docker container:
 * `data`: contains the images, the intermediary files and plots
 * `installation_tests`: test for gsl installation
 
+## How to cite this project
 
+_Müller, M.U., Ghergu, G., Scipione, V., Morrow, J., Lohss, G., Flood, N. (2018) planet-tmask (Version 1.0) [Source code]._ https://github.com/planetlabs/planet-tmask
