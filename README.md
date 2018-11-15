@@ -3,7 +3,7 @@
 ## Idea
 
 The general idea is to wrap the [gsl_multifit_robust](https://www.gnu.org/software/gsl/doc/html/lls.html#robust-linear-regression) regression method using
-`python3` to allow us to do `per-pixel time series analysis`. The original paper
+`python3` to allow us to do `per-pixel time series analysis`. The original paper 
 [https://www.sciencedirect.com/science/article/pii/S0034425714002259](
 https://www.sciencedirect.com/science/article/pii/S0034425714002259) uses
 three Landsat TOAR bands, so the hypothesis is that the same can be achieved using
@@ -123,3 +123,7 @@ the docker container:
 ## How to cite this project
 
 _Müller, M.U., Ghergu, G., Scipione, V., Morrow, J., Lohss, G., Flood, N. (2018) planet-tmask (Version 1.0) [Source code]._ https://github.com/planetlabs/planet-tmask
+
+## Contact
+
+If you have questions or suggestions contact Markus at his [github account](https://github.com/markusuwe)
