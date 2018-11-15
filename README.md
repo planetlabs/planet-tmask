@@ -4,11 +4,11 @@
 
 The general idea is to wrap the [gsl_multifit_robust](https://www.gnu.org/software/gsl/doc/html/lls.html#robust-linear-regression) regression method using
 `python3` to allow us to do `per-pixel time series analysis`. The original paper
-(https://www.sciencedirect.com/science/article/pii/S0034425714002259,
+[https://www.sciencedirect.com/science/article/pii/S0034425714002259](
 https://www.sciencedirect.com/science/article/pii/S0034425714002259) uses
 three Landsat TOAR bands, so the hypothesis is that the same can be achieved using
-PlanetScope (PS) and RapidEye (RE) data. Some aspects of the algorithm cannot be implemented though
-as no SWIR band is available.
+PlanetScope (PS) and RapidEye (RE) data using less bandes, but higher temporal cadence.
+Some aspects of the algorithm cannot be implemented though as no SWIR band is available.
 
 The data is accessed via the [Planet API](https://www.planet.com/docs/api-quickstart-examples/) which allows us to work on just the
 AOIs that we are interested in, without excessive downloads or pre-processing.
